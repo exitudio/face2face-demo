@@ -21,11 +21,6 @@ def main():
     fps = video.FPS().start()
 
     count = 0
-
-
-    length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-    print( length )
-    return
     while cap.isOpened():
         ret, frame = cap.read()
 

@@ -99,4 +99,7 @@ face2face-reduced-model*/
 landmarks
 original
 angela_merkel_speech.mp4
-shape_predictor_68_face_landmarks.dat
+
+
+train_vdo.mov
+face2face-model/
